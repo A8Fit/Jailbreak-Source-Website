@@ -1,0 +1,163 @@
+body , html{
+    font-family:"MyFont";
+    font-weight: 12vh;
+    background: #dcdcdc;
+    text-align: center;
+}
+@font-face {
+    font-family: MyFont;
+    src: url(./font/fonty.ttf);
+}
+a{
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+	border-radius: 5px;
+    text-align: center;
+	overflow: hidden;
+    border: none;
+    transition: all 0.2s ease;
+}
+a:hover{
+    color: #383737;
+    transition: all 0.2s ease;
+}
+.AboutApp{
+    display: inline-flex;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 8%;
+    padding: 8px;
+	color: #1a1a1a;
+	height: 40%;
+    border: 1px solid #ffffffbb;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+.AboutApp:hover{
+    background-color: #9292922d;
+    border: 1px solid #929292bb;
+    color: rgb(101, 99, 99);
+    transition: all 0.3s ease;
+}
+.sileo, .cydia, .Zebra,__icon {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0);
+	color: #1a1a1a;
+	height: 40%;
+    background-color: #ffffff;
+    transition: 0.4s ease;
+}
+.sileo:active, .cydia:active, .Zebra:active{
+    transition: ease-in-out 0.2s step-end;
+    border: 1px solid rgb(255, 255, 255);
+}
+.sileo:hover{
+    background-color: #27d5cfba;
+    transition: 0.4s ease;
+    font-size: 18px;
+}
+.cydia:hover{
+    background-color: rgba(202, 144, 74, 0.827);
+    transition: 0.3s ease;
+    font-size: 18px;
+}
+.Zebra:hover{
+    background-color: #424242dc;
+    color: white;
+    transition: 0.3s ease;
+    font-size: 18px;
+}
+.TitleALRepo{
+    color: aliceblue;
+    width: 20%;
+    background-color:rgb(40, 40, 40) ;
+    border-radius: 70px;
+}
+.NameAbout{
+    position: relative;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color:rgb(40, 40, 40) ;
+    border-radius: 8px;
+    width: 250px;
+    border: 2px solid rgb(228, 226, 226);
+}
+.RepoAbout{
+    position: relative;
+}
+.pkgimg{
+    width: 30px;
+    height: 30px;
+    top: 12px;
+}
+.mwdwm{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.urlSrc{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline;
+    transition: 0.0s;
+}
+.urlSrc:active{
+    text-decoration: none;
+    color: #f84940;
+    transition: 0.0s;
+}
+.block{
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    display: block;
+    width: 400px;
+    left: 0px;
+    right: 0px;
+    padding: auto;
+    margin: auto;
+    border: 1px solid #bdbdbd;
+}
+.LogoRepo{
+    font-size:110px;
+    border-radius: 20px;
+    line-height: 5%;
+    width: 100px;
+}
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+@media only screen and (max-width: 600px) {
+    .sileo, .cydia, .Zebra,__icon{
+        width: 260px;
+        font-size: 15px;
+    }
+    .TitleALRepo{
+        width: 290px;
+    }
+    .AboutApp{
+        display: inline-flex;
+        width: 120px;
+        font-size: 14px;
+    }
+    .block{
+        width: 280px;
+    }
+}
